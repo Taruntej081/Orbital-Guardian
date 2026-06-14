@@ -744,6 +744,44 @@ button[data-testid="stStatusWidget"] {
 .stApp > .stAppViewContainer > div {
     margin-top: 0 !important;
 }
+
+/* ═══════════════ HIDE GITHUB & STREAMLIT HEADER COMPLETELY ═══════════════ */
+/* Hide the entire header bar */
+header {
+    display: none !important;
+}
+
+/* Hide toolbar with Share, Star, GitHub buttons */
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+/* Hide Streamlit menu button */
+.viewerBadge_container__1QSob {
+    display: none !important;
+}
+
+/* Hide all GitHub and share buttons */
+button[aria-label*="GitHub"],
+button[aria-label*="Share"],
+button[aria-label*="Star"],
+button[aria-label*="Edit"],
+button[aria-label*="Deploy"],
+a[href*="github"],
+.streamlit-badge {
+    display: none !important;
+}
+
+/* Hide decorative header elements */
+[data-testid="stDeployButton"] {
+    display: none !important;
+}
+
+/* Hide the three-dot menu */
+[data-testid="stDecoration"],
+[data-testid="stHeader"] {
+    display: none !important;
+}
 </style>
 """, unsafe_allow_html=True)
 

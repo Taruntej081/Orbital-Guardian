@@ -20,7 +20,6 @@ headless = true
 [ui]
 hideTopBar = true
 hideStreamlitBadge = true
-hideGitHubIcon = true
 
 [browser]
 gatherUsageStats = false
