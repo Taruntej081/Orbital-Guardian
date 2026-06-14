@@ -746,40 +746,42 @@ button[data-testid="stStatusWidget"] {
 }
 
 /* ═══════════════ HIDE GITHUB & STREAMLIT HEADER COMPLETELY ═══════════════ */
-/* Hide the entire header bar */
-header {
+/* AGGRESSIVE: Hide ALL header, nav, toolbar elements */
+header, nav, [role="banner"], [role="toolbar"], [role="navigation"],
+.stToolbar, [data-testid="stToolbar"], [data-testid="stHeader"],
+[data-testid="stDeployButton"], [data-testid="stDecoration"],
+.viewerBadge_container__1QSob, .streamlit-badge,
+[class*="Header"], [class*="header"], [class*="Toolbar"], [class*="toolbar"],
+[data-testid*="Header"], [data-testid*="Toolbar"],
+.appHeader, .toolbarContainer, .st-emotion-cache-* {
     display: none !important;
 }
 
-/* Hide toolbar with Share, Star, GitHub buttons */
-[data-testid="stToolbar"] {
-    display: none !important;
-}
-
-/* Hide Streamlit menu button */
-.viewerBadge_container__1QSob {
-    display: none !important;
-}
-
-/* Hide all GitHub and share buttons */
+/* Target specific buttons in top area */
 button[aria-label*="GitHub"],
 button[aria-label*="Share"],
 button[aria-label*="Star"],
 button[aria-label*="Edit"],
 button[aria-label*="Deploy"],
+button[aria-label*="More"],
 a[href*="github"],
-.streamlit-badge {
+a[aria-label*="Share"],
+a[aria-label*="Edit"] {
     display: none !important;
 }
 
-/* Hide decorative header elements */
-[data-testid="stDeployButton"] {
+/* Hide entire top bar and any decorative sections */
+main > div:first-child button,
+main > [class*="emotion"] > button,
+body > header,
+body > nav,
+body > [role="banner"],
+body > [role="toolbar"] {
     display: none !important;
 }
 
-/* Hide the three-dot menu */
-[data-testid="stDecoration"],
-[data-testid="stHeader"] {
+/* Remove any header overflow space */
+[data-testid="stAppViewContainer"]::before {
     display: none !important;
 }
 </style>
