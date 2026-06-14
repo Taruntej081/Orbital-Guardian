@@ -18,8 +18,9 @@ enableXsrfProtection = true
 headless = true
 
 [ui]
-hideTopBar = false
+hideTopBar = true
 hideStreamlitBadge = true
+hideGitHubIcon = true
 
 [browser]
 gatherUsageStats = false
