@@ -1,12 +1,11 @@
-# ??? ORBITAL GUARDIAN
+#  ORBITAL GUARDIAN
+# AI-Powered Space Debris Detection, Tracking & Collision Prevention
 
-### AI-Powered Space Debris Detection, Tracking & Collision Prevention
-
-**Team LEGION | ASTRAVA Hackathon 2024 | Domain: AI For Space Tech**
+Domain: AI For Space Tech**
 
 ---
 
-## ?? **[LIVE APP ?](https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/)**
+## **[LIVE APP ](https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/)**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/)
 
@@ -14,7 +13,7 @@
 
 ---
 
-## ? QUICK START (Windows)
+##  QUICK START (Windows)
 
 The HTML FILE - WEBSITE IN BROWSER BETA (not completely built)
 Chrome is blocking Celestrack, so coming soon
@@ -35,7 +34,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## ? QUICK START (if no venv)
+## QUICK START (if no venv)
 
 ```powershell
 pip install streamlit pandas numpy scikit-learn plotly requests sgp4
@@ -44,24 +43,24 @@ streamlit run app.py
 
 ---
 
-## ?? **KEY FEATURES**
+## **KEY FEATURES**
 
-? **Real-Time Satellite Tracking** — Live tracking of 3,000+ active satellites  
-? **AI Collision Detection** — Predicts potential collisions up to 7 days in advance  
-? **Anomaly Detection** — ML-based identification of unusual orbital behavior  
-? **Interactive 3D Visualization** — Beautiful planet-centered orbital displays  
-? **Risk Assessment** — Color-coded collision probability metrics  
-? **Historical Data** — Track orbital patterns over time  
+**Real-Time Satellite Tracking** â€” Live tracking of 3,000+ active satellites  
+**AI Collision Detection** â€” Predicts potential collisions up to 7 days in advance  
+**Anomaly Detection** â€” ML-based identification of unusual orbital behavior  
+**Interactive 3D Visualization** â€” Beautiful planet-centered orbital displays  
+**Risk Assessment** â€” Color-coded collision probability metrics  
+**Historical Data** â€” Track orbital patterns over time  
 
 ---
 
-## ?? **AI MODELS & TECH STACK**
+## **AI MODELS & TECH STACK**
 
 ### Machine Learning Models
 | Model | Purpose |
 |-------|---------|
 | **SGP4 Propagator** | Physics-based orbital trajectory prediction (NASA standard) |
-| **Isolation Forest** | Anomaly detection — flags satellites with unusual orbital behaviour |
+| **Isolation Forest** | Anomaly detection â€” flags satellites with unusual orbital behaviour |
 | **Random Forest Classifier** | ML collision probability estimation |
 | **3D ECI Distance** | Real-time proximity analysis in Earth-Centered Inertial frame |
 
@@ -75,7 +74,7 @@ streamlit run app.py
 
 ---
 
-## ?? **HOW IT WORKS**
+## **HOW IT WORKS**
 
 1. **Data Acquisition** ? Fetch latest TLE (Two-Line Element) data from CelesTrak
 2. **Orbital Propagation** ? Use SGP4 to calculate satellite positions
@@ -86,7 +85,7 @@ streamlit run app.py
 
 ---
 
-## ?? **PROJECT STRUCTURE**
+## **PROJECT STRUCTURE**
 
 ```
 Orbital-Guardian-main/
@@ -101,7 +100,7 @@ Orbital-Guardian-main/
 
 ---
 
-## ??? **INSTALLATION & SETUP**
+## **INSTALLATION & SETUP**
 
 ### **Option 1: Use Online App (Recommended)**
 Simply click the link above: **[Live App](https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/)**
@@ -141,7 +140,7 @@ streamlit run app.py
 
 ---
 
-## ?? **RESULTS & METRICS**
+## **RESULTS & METRICS**
 
 - **Satellites Tracked:** 3,000+
 - **Collision Predictions:** Up to 7 days
@@ -151,25 +150,25 @@ streamlit run app.py
 
 ---
 
-## ?? **DATA SOURCES**
+## **DATA SOURCES**
 
-- **CelesTrak** — Live TLE data (real satellite positions)
-- **SGP4 Library** — Same propagator used by NASA/NORAD
-- **Built-in fallback TLEs** — Offline demo capability
+- **CelesTrak** â€” Live TLE data (real satellite positions)
+- **SGP4 Library** â€” Same propagator used by NASA/NORAD
+- **Built-in fallback TLEs** â€” Offline demo capability
 
 ---
 
-## ?? **DEPLOYMENT**
+## **DEPLOYMENT**
 
 - **Hosted on:** Streamlit Cloud
 - **Live Link:** https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/
-- **Status:** ? Production Ready
+- **Status:** Production Ready
 
 ---
 
-## ?? **TEAM & CONTRIBUTION**
+## **TEAM & CONTRIBUTION**
 
-**Team LEGION** | ASTRAVA Hackathon 2024  
+| ASTRAVA Hackathon 2024  
 *AI For Space Tech Domain*
 
 ### Contributors
@@ -179,10 +178,8 @@ streamlit run app.py
 
 ---
 
-## ?? **LICENSE**
+## **LICENSE**
 
 This project is open-source and available for educational and research purposes.
 
 ---
-
-*Built for ASTRAVA Hackathon | Team LEGION*
