@@ -36,7 +36,7 @@ st.set_page_config(
     page_title="Orbital Guardian",
     page_icon="🛰️",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 st.markdown("""
@@ -710,6 +710,37 @@ html, body, [class*="css"] {
 .neon-text-blue {
     color:#00d4ff;
     text-shadow: 0 0 10px rgba(0,212,255,0.6), 0 0 20px rgba(0,212,255,0.3);
+}
+
+/* ═══════════════ FULL-SCREEN OPTIMIZATION ═══════════════ */
+/* Hide Streamlit header and footer for clean full-screen view */
+header[data-testid="stHeader"] {
+    display: none !important;
+}
+
+footer {
+    display: none !important;
+}
+
+/* Hide "Manage app" button and settings */
+button[data-testid="stStatusWidget"] {
+    display: none !important;
+}
+
+/* Maximize main content area */
+.main {
+    margin-top: 0 !important;
+    padding-top: 12px !important;
+}
+
+/* Remove excess padding from app container */
+[data-testid="stAppViewContainer"] {
+    padding-top: 0 !important;
+    margin-top: -10px !important;
+}
+
+.stApp > .stAppViewContainer > div {
+    margin-top: 0 !important;
 }
 </style>
 """, unsafe_allow_html=True)
