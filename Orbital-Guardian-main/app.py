@@ -1,7 +1,9 @@
 """
 app.py  –  Orbital Guardian
 AI-Powered Space Debris Detection, Tracking & Collision Prevention
-Team LEGION  |  ASTRAVA Hackathon 2026
+Team LEGION  |  TARUNTEJ081  |  ASTRAVA Hackathon 2026
+
+LIVE APP: https://orbital-guardian-2vj5ljpmxzqv8wracgkzyb.streamlit.app/
 
 PERFORMANCE FIXES vs original:
 1. fetch_tle_group() wrapped in @st.cache_data(ttl=300) — called ONCE per 5 min
@@ -913,7 +915,7 @@ with st.sidebar:
     <div style='color:rgba(0,255,136,0.25);letter-spacing:0.15em;margin:10px 0 2px;text-align:center'>
     ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─</div>
     <div style='color:rgba(0,255,136,0.35);text-align:center;letter-spacing:0.12em'>
-    TEAM LEGION · ASTRAVA 2026</div>
+    TEAM LEGION · ASTRAVA 2026 · TARUNTEJ081</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -928,6 +930,7 @@ with h1:
     <div style="margin-bottom:4px">
         <span class="og-badge">ASTRAVA 2026</span>&nbsp;
         <span class="og-badge">TEAM LEGION</span>&nbsp;
+        <span class="og-badge">TARUNTEJ081</span>&nbsp;
         <span class="og-badge">v2.0</span>&nbsp;
         <span class="og-badge" style="border-color:rgba(168,85,247,0.3);color:#a855f7aa;background:rgba(168,85,247,0.06)">SGP4 ENGINE</span>
     </div>
@@ -947,7 +950,7 @@ with h1:
         RANDOM FOREST ML RISK CLASSIFIER DEPLOYED &nbsp;&nbsp;▸&nbsp;&nbsp;
         3D ECI PROXIMITY DETECTION RUNNING &nbsp;&nbsp;▸&nbsp;&nbsp;
         CELESTRAK TLE FEED CONNECTED &nbsp;&nbsp;▸&nbsp;&nbsp;
-        TEAM LEGION · ASTRAVA HACKATHON 2026 &nbsp;&nbsp;◈
+        TEAM LEGION · TARUNTEJ081 · ASTRAVA HACKATHON 2026 &nbsp;&nbsp;◈
         </span>
     </div>
     """, unsafe_allow_html=True)
