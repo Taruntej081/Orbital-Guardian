@@ -1,15 +1,15 @@
 ﻿## Orbital-Guardian
 ## AI-Powered Space Debris Detection, Tracking & Collision Prevention
 
-**Team LEGION | ASTRAVA Hackathon 2024 | Domain: AI For Space Tech**
+Domain: AI For Space Tech**
 
 ---
 
-## 🚀 **[LIVE APP →](https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/)**
+## 🚀 **[LIVE APP →](https://orbital-guardian-2vj5ljpmxzqv8wracgkzyb.streamlit.app/)**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://orbital-guardian-2vj5ljpmxzqv8wracgkzyb.streamlit.app//)
 
-**Direct Link:** `https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/`
+**Direct Link:** `https://orbital-guardian-2vj5ljpmxzqv8wracgkzyb.streamlit.app/'
 
 ---
 ## ⚡ QUICK START (Windows)
