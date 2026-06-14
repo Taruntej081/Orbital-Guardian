@@ -5,7 +5,7 @@ Domain: AI For Space Tech**
 
 ---
 
-## **[LIVE APP ?](https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/)**
+## **[LIVE APP ](https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/)**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://orbital-guardian-pawd8bq4p9ccc3e5jltypq.streamlit.app/)
 
